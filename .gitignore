@@ -167,3 +167,5 @@ app/static/videos/*.mp4
 # OS
 .DS_Store
 Thumbs.db
+# Cursor rules
+.cursor

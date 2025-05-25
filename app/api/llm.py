@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
-OPENROUTER_MODEL = os.getenv("OPENROUTER_MODEL", "deepseek-coder-v3")
+OPENROUTER_MODEL = os.getenv("OPENROUTER_MODEL", "deepseek-r1:free")
 
 SYSTEM_PROMPT = """You are an expert Manim script writer.
 Return valid Python 3.11 code that imports from manim, defines
